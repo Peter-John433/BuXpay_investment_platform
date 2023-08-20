@@ -12,7 +12,7 @@ BuXpay platform is an investment platform with the goal of becoming the leading 
    The geography of an application is also an important factor to consider due to the varying regulations and operating hours of the banks integrated with the investment app. For instance, in England, banks only provide information Monday to Friday from 9 AM to 6 PM.
 
 However, these restrictions don’t mean the application should not work on weekends. If, like us, you happened to encounter this inconvenience, you can make it seem invisible to the users by extracting data from the most recent updates. In that case, if a customer makes an investment inquiry on a Saturday, they will get the investment rates from Friday, even though they may have changed.
-3. # Code Logging
+3. #Code Logging
   We’ve seen that third-party integrations are vital for proper code error logging, seeing what caused errors, and how to prevent them.
 
 Here’s an example from our experience. The format of a third-party API changed, and the transactions weren’t going through anymore. But it wasn’t clear what the actual problem was because errors weren’t displayed correctly. This inspired us to create a tool for error logging that would log our every inquiry to the third party as well as its response to us. Now, when an error occurs, we see it in the log list.
