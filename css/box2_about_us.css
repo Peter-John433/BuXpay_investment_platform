@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+/* closed */
+
+/* .showcase-container */
+.showcase-container{
+    background: url(../img/ifgl-L.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+.showcase-container-box{
+    position: absolute;
+    top: 30%;
+}
+.showcase-container-box p{
+    line-height: 2rem;
+    word-spacing: 1.6px;
+}
+/* closed */
+
+
+/* .footer-container  */
+.footer-container{
+    background-color: black;
+    height: 80vh;
+}
+/* closed */
+
+@media screen and (max-width: 767px){
+     /* .footer-container */
+     .footer-container{
+        height: auto;
+        text-align: center;
+    }
+    /* closed */
+}

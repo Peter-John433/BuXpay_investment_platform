@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+/* closed  */
+
+/* .about-us-container */
+.about-us-container h6{
+    font-size: 1.5rem;
+    margin-bottom: 0.87rem;
+    
+}
+
+.about-us-container a{
+    text-decoration: none;
+    color: rgb(54, 184, 235);
+}
+.about-us-container a:hover{
+    color: #000;
+}
+/* closed */
+
+/* .footer-container  */
+.footer-container{
+    background-color: black;
+    height: 80vh;
+}
+/* closed */
+
+@media screen and (max-width: 767px){
+     /* .footer-container */
+     .footer-container{
+        height: auto;
+        text-align: center;
+    }
+    /* closed */
+}

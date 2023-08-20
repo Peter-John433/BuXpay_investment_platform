@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+/* closed */
+/* body */
+body{
+    overflow-x: hidden;
+}
+/* closed */
+/* navigation bar */
+.nav-logo{
+    font-family: pacifico;
+}
+
+/* closed */
+/* .wealth-platform-container1 */
+.wealth-platform-container1{
+    background-color: #d1d1d1;
+}
+ .wealth-platform-container .first-p{
+    font-weight: 750;
+}
+.wealth-platform-container-text{
+    cursor: pointer;
+    color: #000;
+}
+.wealth-platform-container-text:hover p{
+    color: green;
+}
+/* closed */

@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+/* closed */
+
+/* .showcase-container */
+.showcase-container{
+    background: url(../img/milnerL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    position: relative;
+}
+.showcase-container-box{
+    position: absolute;
+    top: 30%;
+}
+.showcase-container-box p{
+    font-size: 20px;
+    line-height: 2rem;
+    word-spacing: 1.6px;
+    font-weight: 300;
+}
+/* closed */
+
+/* .wealth-platform-container1 */
+ .wealth-platform-container .first-p{
+    font-weight: 750;
+}
+.wealth-platform-container .second-p{
+    font-weight: 750;
+}
+.wealth-platform-container-text{
+    color: #000;
+}
+
+/* closed */
+
+.wealth-platform-container2{
+    background-color: #d1d1d1;
+}
+.wealth-platform-container2 .second-p{
+    color: black;
+    font-weight: 700;
+}
+/* .wealth-platform-container2 .img-fluid{
+    height: 350px;
+}  */
+
+
+/* .footer-container  */
+.footer-container{
+    background-color: black;
+    height: 80vh;
+}
+/* closed */
+
+@media screen and (max-width: 767px){
+     /* .footer-container */
+     .footer-container{
+        height: auto;
+        text-align: center;
+    }
+    /* closed */
+}
